@@ -1,3 +1,31 @@
 .card{
     background-color: azure;
+    padding: 18px 0;
+}
+.sub1{       
+   
+    width: 464.81px;
+    height: 26px;
+    left: 327.42px;
+    top: 312px;
+    font-family: 'Advent Pro', sans-serif;
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 186.5%;
+ }
+.sub2{   
+    
+    width: 464.81px;
+    height: 22px;
+    left: 326.42px;
+    top: 584px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 186.5%;    
+    font-family: 'Advent Pro', sans-serif;
 }

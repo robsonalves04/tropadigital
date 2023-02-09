@@ -37,7 +37,7 @@ const Pagina = () =>{
                     </section>
                 <section className='card'>
                         <div>
-                            <Card/>
+                            <Card/>       
                             <Card/>
                             <Card/>
                             <Card/>
