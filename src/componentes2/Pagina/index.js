@@ -1,6 +1,7 @@
 
 import Botao from '../../componentes1/Botao'
-import Card from '../Card'
+import CardAlinhado from '../CardAlinhado/CardAlinhado'
+
 import './Pagina.css'
 
 const Pagina = () =>{
@@ -33,18 +34,12 @@ const Pagina = () =>{
                         <Botao className="">
                             Contatos                                     
                         </Botao>
-                    </div>
+                        <CardAlinhado/>
+                    </div>                
+                        
+                    
+                       
                     </section>
-                <section className='card'>
-                        <div>
-                            <Card/>       
-                            <Card/>
-                            <Card/>
-                            <Card/>
-                            <Card/>
-                            <Card/>
-                        </div>
-                </section>        
         </main>
     )
 }

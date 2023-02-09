@@ -1,6 +1,7 @@
 .card{
     background-color: azure;
-    padding: 18px 0;
+    padding: 18px 18px;
+    display: table-cell;
 }
 .sub1{       
    
@@ -28,4 +29,10 @@
     font-size: 12px;
     line-height: 186.5%;    
     font-family: 'Advent Pro', sans-serif;
+}
+
+.card1{
+    position: relative;
+    margin-left: 357px;
+    top: -363px;
 }
