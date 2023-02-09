@@ -1,21 +1,21 @@
-
-import Botao from './componentes1/Botao';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './componentes1/Home';
+import Pagina from './componentes2/Pagina'
+
 
 function App() {
-  return (
-    <div className="App">      
-    <section>     
+  return (   
+    <div className='App'>
 
-      <Home/>
-      <Botao>
-        Acessar
-      </Botao>     
-             
-    </section>
-      
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/Pagina" element={<Pagina/>}/>
+      </Routes>  
+    </BrowserRouter>
+    </div> 
+    
+  )  
 }
 
 export default App;

@@ -1,8 +1,12 @@
+import Botao2 from "../Botao2/Botao2"
+
 import Login from "../Login"
 import './Home.css'
 
 const Home = () =>{
     return(
+        <body className="body">
+
 
     <div className='divpai'>
 
@@ -12,9 +16,12 @@ const Home = () =>{
             <form>            
             <h2 className='titulo'>Bem Vindo ao <span>Painel</span></h2>  
                 <div className='label'>
-                    <Login label placeholder="Digite seu e-mail"/>
-                    <Login label placeholder="Digite sua senha"/>
+                    <Login  placeholder="Digite seu e-mail"/>
+                    <Login  placeholder="Digite sua senha"/>
                 </div>                 
+            <Botao2 path="/Pagina" className="botao">
+                Acessar
+            </Botao2>
             </form>
         </section>
             <div className='bk2'>
@@ -22,9 +29,11 @@ const Home = () =>{
                             </div>
             <div>
                 <img className='bk' src='/Imagens/Imagens/computer.png' alt='imagem computador'/>
-            </div>               
+            </div>   
+                        
     </div>
         
+    </body>
     )
 }
 

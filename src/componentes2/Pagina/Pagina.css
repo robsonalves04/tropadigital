@@ -1,0 +1,48 @@
+*{
+        margin: 0;   
+        box-sizing: border-box;  
+    }
+.body1{
+    background-color: #E5E5E5;
+    width: 305px;
+    height: 1096px;
+    padding: 20px;
+       
+}
+
+.botaoInicio{
+    width: 226px;
+    height: 50px;
+    left: 34px;
+    top: 157px;
+}
+
+.logo2{
+    width: 190px;
+    height: 56.88px;
+    left: 35px;
+    top: 50px;
+}
+
+.texto{
+    position: relative;    
+    color: rgba(0, 0, 0, 0.44);
+    width: 115px;
+    height: 47px;
+    left: 307px;
+    top: 40px;
+    font-family: 'Advent Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 186.5%;
+    text-align: center;
+}
+.span{
+color: rgba(24, 24, 24, 0.44);
+font-weight: bold;
+font-family: 'Advent Pro', sans-serif;
+}
+.card{
+  
+}

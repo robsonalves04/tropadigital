@@ -1,9 +1,14 @@
 import './Botao.css';
+import { Link } from "react-router-dom";
 
 const Botao = (props) =>  {
-    return (<button to={'./Pagina'} className='botao'>
+    return (
+    <Link to={props.path}>
+    <button to={'./?'} className='botao2'>
         {props.children}
-    </button> )
+    </button> 
+    </Link>
+    )
 }
 
 export default Botao
